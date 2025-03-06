@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veg Foods</title>
+    <link rel="stylesheet" href="vegstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="veg">
+        <header>
+        <h1>Vegetarian Foods</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Non-veg</a></li>
+                <li><a href="">Ice-Creams</a></li>
+                <li><a href="">Milkshakes</a></li>
+                <li><a href="">Juices</a></li>
+                <li><a href="">Cakes</a></li>
+                <li><a href="">Contact</a></li>
+                <button class="btn-cart">Cart
+                    <i class="fa fa-cart-plus" id="cart-icon"></i>
+                </button>
+                <div class="cart-count">0</div>
+            </ul>
+        </nav>
+
+      <!--cart section-->
+
+      <div class="cart">
+        <div class="cart-title">Cart item</div>
+        <div class="cart-content">
+          <!-- <div class="cart-box">
+                <img src="./veg/veg/carrotrice2.jpeg" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-food-title">Carrot Rice</div>
+                    <div class="price-box">
+                        <div class="cart-price">Rs.130</div>
+                        <div class="cart-amt">Rs.130</div>
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fa fa-trash cart-remove"></i>
+            </div> -->
+
+            <!-- <div class="cart-box">
+                <img src="veg/chanamasala3.jpeg" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-food-title">chanamasala</div>
+                    <div class="price-box">
+                        <div class="cart-price">Rs.260</div>
+                        <div class="cart-amt">Rs.260</div>
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fa fa-trash cart-remove"></i>
+            </div> -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <button class="btn-buy"><a href="placeOrder.html">Place order</a></button>
+        <i class="fa fa-close" id="cart-close"></i>
+      </div>
+        </header>
+
+        <!--fooder section-->
+
+        <div class="container">
+            <div class="food-box">
+                <img src="./veg/veg/friedrice1.jpg" class="food-img">
+                <h2 class="food-title">Fried Rice</h2>
+                <h3 class="food-price">Rs.150.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/carrotrice2.jpeg" class="food-img">
+                <h2 class="food-title">carrot rice</h2>
+                <h3 class="food-price">Rs.130.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/chanamasala3.jpeg" class="food-img">
+                <h2 class="food-title">chanamasala</h2>
+                <h3 class="food-price">Rs.260.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/chillipaneer4.jpg" class="food-img">
+                <h2 class="food-title">chillipaneer</h2>
+                <h3 class="food-price">Rs.250.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/cilantrolime5.jpeg" class="food-img">
+                <h2 class="food-title">cilantrolime</h2>
+                <h3 class="food-price">Rs.220.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/chennalthali6.png" class="food-img">
+                <h2 class="food-title">chennal thali</h2>
+                <h3 class="food-price">Rs.250.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/corianderrice7.jpg" class="food-img">
+                <h2 class="food-title">coriander rice</h2>
+                <h3 class="food-price">Rs.150.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/curdrice.jpeg" class="food-img">
+                <h2 class="food-title">curd Rice</h2>
+                <h3 class="food-price">Rs.130.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/dhalrice9.jpg" class="food-img">
+                <h2 class="food-title">dhal Rice</h2>
+                <h3 class="food-price">Rs.220.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/jeerarice10.jpeg" class="food-img">
+                <h2 class="food-title">jeera Rice</h2>
+                <h3 class="food-price">Rs.130.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/lemonrice11.jpg" class="food-img">
+                <h2 class="food-title">lemon Rice</h2>
+                <h3 class="food-price">Rs.120.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/malaikoftacurry12.jpeg" class="food-img">
+                <h2 class="food-title">malaikofta curry</h2>
+                <h3 class="food-price">Rs.350.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/meals13.jpg" class="food-img">
+                <h2 class="food-title">meals</h2>
+                <h3 class="food-price">Rs.200.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/palakpaneer14.jpeg" class="food-img">
+                <h2 class="food-title">palak paneer</h2>
+                <h3 class="food-price">Rs.350.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/paneergravy15.jpeg" class="food-img">
+                <h2 class="food-title">paneer gravy</h2>
+                <h3 class="food-price">Rs.200.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/paneerbutter16.jpeg" class="food-img">
+                <h2 class="food-title">paneer butter</h2>
+                <h3 class="food-price">Rs.320.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/paneermunchurian17.jpeg" class="food-img">
+                <h2 class="food-title">paneer munchurian</h2>
+                <h3 class="food-price">Rs.230.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/schezwanrice18.jpeg" class="food-img">
+                <h2 class="food-title">schezwan Rice</h2>
+                <h3 class="food-price">Rs.450.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/tomatorice19.jpeg" class="food-img">
+                <h2 class="food-title">tomato Rice</h2>
+                <h3 class="food-price">Rs.130.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="food-box">
+                <img src="./veg/veg/whitepulao20.jpg" class="food-img">
+                <h2 class="food-title">white pulao</h2>
+                <h3 class="food-price">Rs.260.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div> 
+        <div class="form-group">
+            <label for="order-summary">Selected Items</label>
+            <ul class="list"></ul>
+        </div>
+
+    </section>
+
+    <!--===script file section===-->
+    <script src="script.js"></script>
+</body>
+</html>
